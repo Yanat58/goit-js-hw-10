@@ -43,6 +43,11 @@ p {
   margin-bottom: 16px;
 }
 
+#search-box:focus {
+  border: 2px solid rgb(18, 124, 211);
+  border-radius: 3px;
+  outline: none;
+}
 /* country-info */
 
 .country {
