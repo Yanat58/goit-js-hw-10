@@ -1,5 +1,6 @@
 import { refs } from './get-refs';
 import { countryList, countryInfo } from './markup-template';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 export function quantityCountries(countries) {
   if (countries.length > 10) {
