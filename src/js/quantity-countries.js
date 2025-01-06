@@ -15,7 +15,7 @@ export function quantityCountries(countries) {
     refs.infoCountry.innerHTML = '';
   }
   if (countries.length === 1) {
-    const infoMarkup = countries.map(country => countryInfo(country)).join('');
+    const infoMarkup = countryInfo(countries[0]);
     refs.listCountry.innerHTML = '';
     refs.infoCountry.innerHTML = infoMarkup;
   }
